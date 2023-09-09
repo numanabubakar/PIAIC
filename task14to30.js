@@ -15,4 +15,17 @@ guestList.forEach((i) => console.log(`Im Inviting you for Dinner! ${i}.`));
 console.log("founded a bigger dinner table");
 guestList.unshift("Awais");
 guestList.splice(guestList.length / 2, 0, "Umair");
-console.log("🚀 ~ file: task14to30.ts:30 ~ guestList:", guestList);
+guestList.push("Abdul Manan");
+guestList.forEach((i) => console.log(`Im Inviting you for Dinner! ${i}.`));
+// -----------Exercise 17------------------
+// Shrinking Guest List: You just found out that your new dinner table won’t arrive in time for the dinner, and you have space for only two guests.
+console.log("I can invite only two people for dinner.");
+while (guestList.length > 2) {
+    const removedGuest = guestList.pop();
+    if (removedGuest) {
+        console.log(`Sorry, ${removedGuest}! You're no longer invited to dinner`);
+    }
+}
+guestList.forEach((i) => console.log(i, "you are still invited!"));
+guestList.splice(0, 2);
+console.log("empty list :", guestList);
