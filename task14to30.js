@@ -72,3 +72,35 @@ console.log(car.model);
 // Intentional Error: If you haven’t received an array index error in one of your programs yet, try to make one happen. Change an index in one of your programs to produce an index error. Make sure you correct the error before closing the program.
 console.log(countries[10]); //Intentional Error
 console.log(countries[0]); //Valid index
+// More Conditional Tests: You don’t have to limit the number of tests you create to 10. If you want to try more comparisons, write more tests. Have at least one True and one False result for each of the following:
+// • Tests for equality and inequality with strings
+// • Tests using the lower case function
+// • Numerical tests involving equality and inequality, greater than and less than, greater than or equal to, and less than or equal to
+// • Tests using "and" and "or" operators
+// • Test whether an item is in a array
+// • Test whether an item is not in a array
+const string1 = "apple";
+const string2 = "orange";
+console.log(string1 === string2); // False
+console.log(string1 !== string2); // True
+const lowercase1 = "HELLO";
+const lowercase2 = "hello";
+console.log(lowercase1.toLowerCase() === lowercase2.toLowerCase()); // True
+console.log(lowercase1.toLowerCase() !== lowercase2.toLowerCase()); // False
+const num1 = 10;
+const num2 = 5;
+console.log(num1 === num2); // False
+console.log(num1 !== num2); // True
+console.log(num1 > num2); // True
+console.log(num1 < num2); // False
+console.log(num1 >= num2); // True
+console.log(num1 <= num2); // False
+const value1 = true;
+const value2 = false;
+console.log(value1 && value2); // False
+console.log(value1 || value2); // True
+const fruits = ["apple", "orange", "banana"];
+const searchItem = "orange";
+console.log(fruits.includes(searchItem)); // True
+const searchItem2 = "BMW";
+console.log(fruits.includes(searchItem)); // False
