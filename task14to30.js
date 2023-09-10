@@ -60,3 +60,11 @@ console.log("No of Guest ", guestList14.length);
 //Think of something you could store in a array. For example, you could make a list of mountains, rivers, countries, cities, languages, or anything else you’d like. Write a program that creates a list containing these items.
 const countries = ["India", "United States", "Canada", "Australia", "Germany"];
 console.log(countries);
+// -----------Exercise 21------------------
+// They think of something you could store in a TypeScript Object. Write a program that creates Objects containing these items.
+const car = {
+    type: "Toyota",
+    model: "Corolla",
+    year: 2009
+};
+console.log(car.model);
