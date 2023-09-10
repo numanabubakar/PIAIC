@@ -29,3 +29,30 @@ while (guestList.length > 2) {
 guestList.forEach((i) => console.log(i, "you are still invited!"));
 guestList.splice(0, 2);
 console.log("empty list :", guestList);
+// -----------Exercise 18------------------
+let locations = ["Paris", "Tokyo", "Rome", "New York", "Sydney"];
+// Print array in its original order
+console.log("Original order:", locations);
+// Print array in alphabetical order without modifying the original list
+console.log("Alphabetical order:", locations.sort());
+// Print array in its original order
+console.log("Original order:", locations);
+// Print array in reverse alphabetical order without modifying the original list
+console.log("Reverse alphabetical order:", locations.sort().reverse());
+// Print array in its original order
+console.log("Original order:", locations);
+// Reverse the order of the list
+locations.reverse();
+console.log("Reversed order:", locations);
+// Reverse the order of the list again
+locations.reverse();
+console.log("Original order:", locations);
+// Sort the array in alphabetical order
+locations.sort();
+console.log("Alphabetical order:", locations);
+// Sort the array in reverse alphabetical order
+console.log("Reverse alphabetical order:", locations.reverse());
+// -----------Exercise 19------------------
+// Dinner Guests: Working with one of the programs from Exercises 14 through 18, print a message indicating the number of people you are inviting to dinner.
+const guestList14 = ["Abdullah", "Ali", "Abdul Rehman", "Umar", "Abdul Wahab"];
+console.log("No of Guest ", guestList14.length);
