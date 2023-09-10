@@ -96,3 +96,11 @@ const guestList14:string[]=["Abdullah","Ali","Abdul Rehman","Umar","Abdul Wahab"
 console.log("No of Guest ",guestList14.length);
 
 
+// -----------Exercise 20------------------
+
+//Think of something you could store in a array. For example, you could make a list of mountains, rivers, countries, cities, languages, or anything else you’d like. Write a program that creates a list containing these items.
+
+
+const countries: string[] = ["India", "United States", "Canada", "Australia", "Germany"];
+
+console.log(countries); 
