@@ -172,3 +172,4 @@ const searchItem: string = "orange";
 console.log(fruits.includes(searchItem)); // True
 const searchItem2: string = "BMW";
 console.log(fruits.includes(searchItem)); // False
+
