@@ -152,23 +152,3 @@ const lowercase2: string = "hello";
 console.log(lowercase1.toLowerCase() === lowercase2.toLowerCase()); // True
 console.log(lowercase1.toLowerCase() !== lowercase2.toLowerCase()); // False
 
-const num1: number = 10;
-const num2: number = 5;
-console.log(num1 === num2); // False
-console.log(num1 !== num2); // True
-console.log(num1 > num2); // True
-console.log(num1 < num2); // False
-console.log(num1 >= num2); // True
-console.log(num1 <= num2); // False
-
-
-const value1: boolean = true;
-const value2: boolean = false;
-console.log(value1 && value2); // False
-console.log(value1 || value2); // True
-
-const fruits: string[] = ["apple", "orange", "banana"];
-const searchItem: string = "orange";
-console.log(fruits.includes(searchItem)); // True
-const searchItem2: string = "BMW";
-console.log(fruits.includes(searchItem)); // False
