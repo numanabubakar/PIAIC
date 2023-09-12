@@ -105,6 +105,5 @@ friendsNames.forEach((i)=>console.log( `AsslamAliakum! ${i} I Hope You are fine!
   frvtCars.forEach((item)=>console.log(`I would like to own a ${item}`)
   )
 
-  // asslam-aliakum
-  
+
 
