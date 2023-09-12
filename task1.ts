@@ -106,8 +106,6 @@ friendsNames.forEach((i)=>console.log( `AsslamAliakum! ${i} I Hope You are fine!
   )
 
 
-//A message with a verification code has been sent to your devices. Enter the code to continue.
 
-// Didn’t get a verification code? 
 
 
