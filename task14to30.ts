@@ -174,8 +174,3 @@ const searchItem2: string = "BMW";
 console.log(fruits.includes(searchItem)); // False
 
 
-
-// const car: { type: string, mileage?: number } = { // no error
-//   type: "Toyota"
-// };
-// car.mileage = 2000;
