@@ -174,9 +174,3 @@ const searchItem2: string = "BMW";
 console.log(fruits.includes(searchItem)); // False
 
 
-
-
-
-//A message with a verification code has been sent to your devices. Enter the code to continue.
-
-// Didn’t get a verification code? 

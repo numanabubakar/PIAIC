@@ -107,5 +107,3 @@ friendsNames.forEach((i)=>console.log( `AsslamAliakum! ${i} I Hope You are fine!
 
 
 
-
-
