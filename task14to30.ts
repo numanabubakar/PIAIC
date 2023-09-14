@@ -174,4 +174,3 @@ const searchItem2: string = "BMW";
 console.log(fruits.includes(searchItem)); // False
 
 
-// skajlsamslkxas
