@@ -105,3 +105,4 @@ const searchItem = "orange";
 console.log(fruits.includes(searchItem)); // True
 const searchItem2 = "BMW";
 console.log(fruits.includes(searchItem)); // False
+// skajlsamslkxas
