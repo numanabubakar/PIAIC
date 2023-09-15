@@ -278,3 +278,5 @@ if (age < 2) {
 } else {
   console.log("person is elder");
 }
+
+// -----------Exercise 29------------------
