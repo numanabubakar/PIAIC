@@ -125,6 +125,40 @@ console.log(countries[10]);   //Intentional Error
 console.log(countries[0]);   //Valid index
 
 
+// -----------Exercise 23------------------
+
+// Conditional Tests: Write a series of conditional tests. Print a statement describing each test and your prediction for the results of each test. Your code should look something like this:
+
+// let car = 'subaru';
+
+// console.log("Is car == 'subaru'? I predict True.")
+
+// console.log(car == 'subaru')
+
+
+
+
+let carName: string = 'subaru';
+
+console.log("Is car == 'subaru'? I predict true.");
+console.log(carName == 'subaru');
+
+console.log("Is carName == 'ford'? I predict false.");
+console.log(carName == 'ford');
+
+console.log("Is carName != 'honda'? I predict true.");
+console.log(carName != 'honda');
+
+console.log("Is carName === 'subaru'? I predict true.");
+console.log(carName === 'subaru');
+
+console.log("Is carName !== 'subaru'? I predict false.");
+console.log(carName !== 'subaru');
+
+console.log("Is carName !== 'ford'? I predict true.");
+console.log(carName !== 'ford');
+
+
 // -----------Exercise 24------------------
 
 
